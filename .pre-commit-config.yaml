@@ -8,4 +8,6 @@ repos:
     rev: v5.0.0
     hooks:
       - id: detect-private-key
+
       - id: check-added-large-files
+        exclude: ^labs/lab4/(juice-shop\.cdx\.json|juice-shop\.spdx\.json|juice-shop-attestation\.json)$
